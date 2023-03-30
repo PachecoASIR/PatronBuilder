@@ -15,6 +15,8 @@ classDiagram
     
      class Pizza{
      }
+     
+     Main --> Pizza
 ```
 
 ¿Podríamos combinarlo con el patrón Factory?
