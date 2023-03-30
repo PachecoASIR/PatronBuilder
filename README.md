@@ -13,7 +13,18 @@ classDiagram
     +Main()
     }
     
-    class Pizza{
+    class Pizzas{
+    String masa;
+    boolean relleno;
+    int tipo;
+    boolean salsa;
+    String tipoSalsa;
+    boolean cebolla;
+    boolean sinGluten;
+    boolean extQueso;
+    boolean pina;
+    boolean champinones;
+    boolean jamon;
     }
     
     class BuilderPizzas{
