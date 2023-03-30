@@ -96,5 +96,5 @@ public class BuilderFactory { <br>
     public static Tortilla getTortilla(){ <br>
     } <br>
 }
-<br>
+<br> <br>
 Con Tortilla definimos los métodos para construír nuestro objeto mientras que BuilerFactory actuaría de Factory para crear las diferentes instancias.
