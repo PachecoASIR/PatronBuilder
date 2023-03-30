@@ -40,7 +40,11 @@ classDiagram
 
 Sí. podríamos crear una Factory dentro del propio Patron Builder para complementarlos uno con el otro.
 
-EXAMEN
+
+
+
+
+<h1>EXAMEN</h1>
 
 ¿Cual es la función del patrón builder? Pon ejemplo (que no sea Pizzas)
 
