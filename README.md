@@ -13,10 +13,14 @@ classDiagram
     +Main()
     }
     
-     class Pizza{
-     }
-     
-     Main --> Pizza
+    class Pizza{
+    }
+    
+    class BuilderPizzas{
+    }
+      
+     Main <-- Pizza
+     Main <-- BuilderPizzas
 ```
 
 ¿Podríamos combinarlo con el patrón Factory?
