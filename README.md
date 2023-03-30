@@ -30,7 +30,7 @@ classDiagram
     class BuilderPizzas{
     }
       
-     Main <-- Pizza
+     Main <-- Pizzas
      Main <-- BuilderPizzas
 ```
 
