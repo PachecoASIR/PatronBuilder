@@ -87,16 +87,16 @@ El patrón Builder se utiliza para construir objetos complejos paso a paso, mien
 
 Para combinar el patrón Builder con el patrón Factory, podríamos utilizar una interfaz de Factory que permita crear instancias del constructor apropiado del Builder según el tipo de objeto que deseas construir.
 <br>
-<ul>
-<li>public interface Tortilla {</li>
-    <li>public float Tortilla();</li>
-    <li>public int Tipo();</li>
-<li>}</li>
+<table>
+<tr>public interface Tortilla {</tr>
+    <tr><td></td><td>public float Tortilla();</td></tr>
+    <tr><td></td><td>public int Tipo();</td></tr>
+<tr>}</tr>
 <br>
-<li>public class BuilderFactory {</li>
-    <li>public static Tortilla getTortilla(){</li>
-    <li>}</li>
-<li>}</li>
-</ul>
+<tr>public class BuilderFactory {</tr>
+    <tr><td></td><td>public static Tortilla getTortilla(){</td></tr>
+    <tr><td></td><td>}</td></tr>
+<tr>}</tr>
+</table>
 <br>
 Con Tortilla definimos los métodos para construír nuestro objeto mientras que BuilerFactory actuaría de Factory para crear las diferentes instancias.
